@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color:black;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+font-family: 'Varela Round', sans-serif; 
+}
+nav ul{
+    display: flex;
+    align-items:center;
+list-style-type: none;
+height: 60px;
+background-color: black;
+color: white;
+  
+}
+nav ul li{
+    padding: 0 12px;
+
+}
+.brand img{
+    width: 46px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+ 
+}
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: white;
+    font-family:  'Varela Round', sans-serif;
+    display: flexbox;
+    margin: 5px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url('music background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    bottom:0;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    position: inherit;
+    cursor: pointer;
+    }
+
+.icons{
+    margin-top: 34px;
+}
+
+#myProgressBar{
+    width: 70vw;
+    height: 1vw;
+    position: relative;
+    top: 5%;
+    nav-down: current;
+    cursor: pointer;
+   
+}
+.songItemContainer{
+    margin-top: 44px;
+}
+.songItems{
+height: 52px;
+display: flex;
+background-color: white;
+width: 43%;
+color: black;
+margin: 15px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 22px;
+border-left: 0in;
+}
+.songItems img{
+    width: 43px;
+    margin: 23px 0;
+    border-radius: 33px;
+}
+.timestamp{
+margin: 0 13px;
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songInfo{
+font-style:initial;
+position:relative;
+top: 0px;
+left: 40%;
+border-right-color: rgb(10, 10, 10);
+size: 55px;
+background-color: black;
+    color: rgb(236, 231, 231);
+    font-family: 'Varela Round', sans-serif;
+  
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
